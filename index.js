@@ -30,6 +30,9 @@ class Farm {
       calculateIncommeAnimals(){
         return this.animals.map(animal => animal.getYieldInEuros()).reduce((total, amount) => total  + amount,0)
       }
+      calculateMaxIncomeCrops(){
+        //return this.animals.map(animal => animal.getYieldInEuros()).reduce((total, amount) => total  + amount,0)
+      }
       farmStats(){
 
         const  logo =  "*****MyFarmStats*****"
